@@ -1,0 +1,18 @@
+# Eclipse / Java
+.classpath
+.project
+.settings/
+bin/
+target/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IntelliJ (por si acaso)
+.idea/
+*.iml
+
+# No subir SDKs locales
+javafx-sdk-*/

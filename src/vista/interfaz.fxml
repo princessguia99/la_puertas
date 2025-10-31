@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefWidth="500.0" prefHeight="350.0"
+            xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controlador.Holacontrolador">
+    <children>
+        <Label layoutX="24" layoutY="24" text="Introduce tu nombre:" />
+        <TextField fx:id="campoNombre" layoutX="170" layoutY="20" prefWidth="180"/>
+        <Label layoutX="24" layoutY="62" text="Resultado:" />
+        <Label fx:id="etiquetaResultado" layoutX="170" layoutY="62" text="—" />
+        <Button fx:id="botonSaludo" layoutX="150" layoutY="120"
+                text="Saludar" onAction="#mostrarSaludo"/>
+    </children>
+</AnchorPane>
